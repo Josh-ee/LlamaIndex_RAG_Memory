@@ -43,6 +43,6 @@ Run the `demo_RAG.ipynb` which will step you through 4 different examples:
 ## Performance
 
 This code was developed on a M2 Max with 32GB of RAM. However, you can scale the embedding model and/or the LLM model to better match with your system.  
-All of the necessary imports for Mac to utilize MPS are present in the notebooks.
-On an M2 Max the time from prompt to completed answer is roughly comparable to GPT4 and is more than useable 
+All of the necessary imports for Mac to utilize MPS are present in the notebooks.  
+On an M2 Max, the time from prompt to completed answer is roughly comparable to GPT4 and is more than useable 
 
