@@ -11,7 +11,7 @@ However, the RAG will work with paid APIs like GPT4-Turbo, just change the llm i
 Here are the libraries used:
 
    1. Vector Storage -> ChromaDB
-   2. Embedding Model -> [BAAI/bge-small-en-v1.5'model](https://huggingface.co/spaces/mteb/leaderboard) from HuggingFaceBgeEmbeddings
+   2. Embedding Model -> [BAAI/bge-small-en-v1.5](https://huggingface.co/spaces/mteb/leaderboard) from HuggingFaceBgeEmbeddings
    3. LLM -> [Mistral-11B-OmniMix](https://huggingface.co/TheBloke/Mistral-11B-OmniMix-GGUF) the 4bit quantized GGUF version from TheBloke
 
 
@@ -43,3 +43,5 @@ Run the `demo_RAG.ipynb` which will step you through 4 different examples:
 
 This code was developed on a M2 Max with 32GB of RAM. However, you can scale the embedding model and/or the LLM model to better match with your system.  
 All of the necessary imports for Mac to utilize MPS are present in the notebooks.
+On an M2 Max the time from prompt to completed answer is roughly comparable to GPT4 and is more than useable 
+
