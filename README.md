@@ -11,8 +11,9 @@ However, the RAG will work with paid APIs like GPT4-Turbo, just change the llm i
 Here are the libraries used:
 
    1. Vector Storage -> ChromaDB
-   2. Embedding Model -> [BAAI/bge-small-en-v1.5](https://huggingface.co/spaces/mteb/leaderboard) from HuggingFaceBgeEmbeddings
+   2. Embedding Model -> [BAAI/bge-small-en-v1.5](https://huggingface.co/spaces/mteb/leaderboard) from HuggingFaceEmbeddings
    3. LLM -> [Mistral-11B-OmniMix](https://huggingface.co/TheBloke/Mistral-11B-OmniMix-GGUF) the 4bit quantized GGUF version from TheBloke
+   4. This GGUF model is loaded with [LlamaCPP](https://github.com/abetlen/llama-cpp-python.git), which results in solid perforamce
 
 
 
