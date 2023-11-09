@@ -1,7 +1,11 @@
 # LlamaIndex_RAG_Memory
-Example of Conversational Memory with RAG that cites sources
 
-![ezgif com-optimize-3](https://github.com/Josh-ee/LlamaIndex_RAG_Memory/assets/74482044/6c7cc0cf-c0c0-4fa8-99ec-cda9cde7e11c)  
+
+<p align="center">
+   <strong>Running The UI code for Conversational Memory with RAG that cites sources</strong><br><br>
+   <img src="https://github.com/Josh-ee/LlamaIndex_RAG_Memory/assets/74482044/6c7cc0cf-c0c0-4fa8-99ec-cda9cde7e11c" alt="ezgif com-optimize-3"/>
+</p>
+
 Note: The GIF demo is a real-time representation of the code execution on M2 Max and has not been sped up  
 
 
