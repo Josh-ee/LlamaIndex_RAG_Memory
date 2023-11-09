@@ -1,6 +1,11 @@
 # LlamaIndex_RAG_Memory
 Example of Conversational Memory with RAG that cites sources
 
+![ezgif com-optimize-3](https://github.com/Josh-ee/LlamaIndex_RAG_Memory/assets/74482044/6c7cc0cf-c0c0-4fa8-99ec-cda9cde7e11c)  
+Note: The GIF demo is a real-time representation of the code execution on M2 Max and has not been sped up  
+
+
+Click [here](https://youtu.be/80ige6hVlE8) for a longer demo
 
 ## Introduction
 
@@ -14,10 +19,12 @@ Here are the libraries used:
    2. Embedding Model -> [BAAI/bge-small-en-v1.5](https://huggingface.co/spaces/mteb/leaderboard) from HuggingFaceEmbeddings
    3. LLM -> [Mistral-11B-OmniMix](https://huggingface.co/TheBloke/Mistral-11B-OmniMix-GGUF) the 4bit quantized GGUF version from TheBloke
    4. This GGUF model is loaded with [LlamaCPP](https://github.com/abetlen/llama-cpp-python.git), which results in solid perforamce
+   5. User Interface (UI) -> [Chainlit](https://docs.chainlit.io/integrations/llama-index)
 
 
 
 # Vector Database and RAG with LlamaIndex
+
 
 The `create_VectorDB.ipynb` notebook guides you through the process of creating a vector database using Chroma DB, which stores embeddings from Hugging Face's language models. This vector database is then used by the demo script for RAG.
 
