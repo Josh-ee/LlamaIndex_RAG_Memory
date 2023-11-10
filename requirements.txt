@@ -4,7 +4,7 @@ chroma-hnswlib==0.7.3
 chromadb==0.4.16
 jupyterlab-widgets==3.0.9
 llama-index==0.8.64.post1
-llama_cpp_python==0.2.11
+llama_cpp_python==0.2.16
 tokenizers==0.14.1
 torch==2.1.0
 torchaudio==2.1.0

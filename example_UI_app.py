@@ -4,7 +4,7 @@ Steps to Run code:
 Note: if you are using CUDA you need to install Torch differently
 
 2. Run "chainlit run example_UI_app.py" in this directory
-Note: if you have response issues make sure you have llama_cpp_python==0.2.11
+Note: if you have response issues make sure you have llama_cpp_python==0.2.16
 """
 # To run this code paste "chainlit run example_UI_app.py" in this directory
 
